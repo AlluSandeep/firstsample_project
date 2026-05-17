@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    padding-top: 49px;
+
+}
+
+.next{
+    background: url(logobg);
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+}
+
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.nav-bar ul li a{ 
+  padding:40px;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+
+}
+
+.main ul li{
+    display: inline;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: orangered
+}
+.menu ul li:hover{
+    background-color: skyblue;
+    
+}
+
+
+.icon{
+    color:black;
+    float: left;
+    font-size: 30px;
+    padding-left: 3%;
+}
+
+.icon .logo{
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: rgb(254, 254, 254);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo i{
+    color: orange;
+}
+
+.menu{
+    padding-left: 30%;
+    padding-top: 1.3%;
+    
+}
+
+.container{
+    background-color: black;
+    padding-bottom: 60px;
+    top: 80px;
+
+}
+
+.container h1{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.break {
+    display: flex;
+    justify-content: center; 
+    list-style: none; 
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 22%;
+    padding-top: 60px;
+}
+
+
+.pre{
+    padding-top: 40px;
+}
+
+.main1{
+    background-color: orange;
+}
+
+.thala{
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.phy{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+
+button{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    bottom: 120px;
+}
+
+.main2{
+    padding: 100px;
+}
+
+.middle{
+    font-size: 45px;
+}
+
+.end{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.menu1 {
+    display: flex;  
+    justify-content: space-between; 
+    gap: 50px; 
+}
+
+.sai, .sai1, .sai2 {
+    flex: 1;  
+    list-style: none; 
+}
+
+.sai1 h1, .sai2 h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.sai1 p, .sai2 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.icon1{
+    font-size: 50px;
+}
+
+.icon1 i{
+    color: orange;
+}
+
+.sai{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sai a{
+    border: 1px solid white;
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+}
